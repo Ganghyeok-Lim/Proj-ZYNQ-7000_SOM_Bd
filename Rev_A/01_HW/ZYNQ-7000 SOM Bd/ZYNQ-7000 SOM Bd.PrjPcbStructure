@@ -1,10 +1,9 @@
 Record=TopLevelDocument|FileName=01_Index.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=02_Overview.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=03_Power.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=04_ZYNQ_Power.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=05_ZYNQ_Config.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=06_ZYNQ_PS.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=07_ZYNQ_PL.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=08_ZYNQ_DDR.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=09_DDR3L_Modules.SchDoc|SheetNumber=9
-Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=10_Connectors.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=03_ZYNQ_Power.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=04_ZYNQ_Config.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=05_ZYNQ_PS.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=06_ZYNQ_PL.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=07_ZYNQ_DDR.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=08_DDR3L_Modules.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=01_Index.SchDoc|FileName=09_Connectors.SchDoc|SheetNumber=9

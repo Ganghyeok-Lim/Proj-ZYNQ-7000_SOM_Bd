@@ -8,11 +8,11 @@ ChannelRoomLevelSeperator=_
 OpenOutputs=1
 ArchiveProject=0
 TimestampOutput=0
-SeparateFolders=0
+SeparateFolders=1
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=1
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -43,11 +43,11 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=01_Index.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -60,11 +60,11 @@ DocumentUniqueId=UPZFXZPX
 [Document2]
 DocumentPath=02_Overview.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=200
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -75,30 +75,13 @@ GenerateClassCluster=0
 DocumentUniqueId=LHVRHKVW
 
 [Document3]
-DocumentPath=03_Power.SchDoc
+DocumentPath=03_ZYNQ_Power.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=WDJTMYGK
-
-[Document4]
-DocumentPath=04_ZYNQ_Power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -108,14 +91,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XLIZTDVO
 
-[Document5]
-DocumentPath=05_ZYNQ_Config.SchDoc
+[Document4]
+DocumentPath=04_ZYNQ_Config.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=400
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -125,14 +108,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PLZQLXDG
 
-[Document6]
-DocumentPath=06_ZYNQ_PS.SchDoc
+[Document5]
+DocumentPath=05_ZYNQ_PS.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=500
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -142,14 +125,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OCTAVQTL
 
-[Document7]
-DocumentPath=07_ZYNQ_PL.SchDoc
+[Document6]
+DocumentPath=06_ZYNQ_PL.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=600
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -159,14 +142,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XRBCSZLC
 
-[Document8]
-DocumentPath=08_ZYNQ_DDR.SchDoc
+[Document7]
+DocumentPath=07_ZYNQ_DDR.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=700
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=7
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -176,14 +159,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRRFEPQH
 
-[Document9]
-DocumentPath=09_DDR3L_Modules.SchDoc
+[Document8]
+DocumentPath=08_DDR3L_Modules.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=800
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=8
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -193,8 +176,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RZBVMBIK
 
+[Document9]
+DocumentPath=09_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=900
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KWPTGZFU
+
 [Document10]
-DocumentPath=10_Connectors.SchDoc
+DocumentPath=ZYNQ-7000_SOM_Bd.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -208,7 +208,173 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=KWPTGZFU
+DocumentUniqueId=GYTJXXAC
+
+[Document11]
+DocumentPath=ZYNQ-7000 SOM Bd.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document12]
+DocumentPath=CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=https://d.docs.live.net/27155264df4fa9c1/04_Development/01_Project/Active/08_ZYNQ-7000_SOM_Bd/Proj-ZYNQ-7000_SOM_Bd/Rev_A/01_HW/ZYNQ-7000 SOM Bd/Project Outputs for ZYNQ-7000 SOM Bd/BOM/Bill of Materials-ZYNQ-7000_SOM_Bd.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Design Rule Check - ZYNQ-7000_SOM_Bd.html
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Pick Place\Pick Place for ZYNQ-7000_SOM_Bd.csv
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Pick Place\Pick Place for ZYNQ-7000_SOM_Bd.txt
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\NC Drill\ZYNQ-7000_SOM_Bd.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G1
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G2
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G3
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G4
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G5
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.G6
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GM3
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GM13
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GM15
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\NC Drill\ZYNQ-7000_SOM_Bd.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.REP
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\Gerber\ZYNQ-7000_SOM_Bd.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for ZYNQ-7000 SOM Bd\NC Drill\ZYNQ-7000_SOM_Bd.TXT
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -220,10 +386,49 @@ OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
 
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=0
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
+
+[Generic_EDE]
+OutputDir=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -329,7 +534,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -407,7 +612,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -429,7 +634,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Board Stack Report
 OutputName1=Report Board Stack
@@ -501,7 +706,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -550,7 +755,7 @@ OutputDefault8=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -658,7 +863,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_Violations
 OutputName1=BOM Checks Report
@@ -702,7 +907,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -763,7 +968,7 @@ OutputDefault11=0
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=Canon G3000 series Printer
+TargetPrinter=OneNote (Desktop)
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -897,14 +1102,14 @@ Type1=1
 Type2=1
 Type3=1
 Type4=1
-Type5=1
+Type5=0
 Type6=1
 Type7=1
 Type8=1
 Type9=1
 Type10=1
 Type11=1
-Type12=1
+Type12=0
 Type13=1
 Type14=1
 Type15=1
@@ -914,7 +1119,7 @@ Type18=1
 Type19=1
 Type20=1
 Type21=1
-Type22=1
+Type22=0
 Type23=1
 Type24=1
 Type25=1
@@ -972,7 +1177,7 @@ Type6=2
 Type7=0
 Type8=1
 Type9=1
-Type10=1
+Type10=0
 Type11=2
 Type12=2
 Type13=2
@@ -1134,6 +1339,246 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Arkx.IntLib
+ComponentDesignItemID0=CAP_100nF/16V/1005
+ComponentSymbolReference0=CAP_100nF/16V/1005
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Library Name And Type
+ComponentLibraryIdentifier1=Arkx.IntLib
+ComponentDesignItemID1=CAP_100nF/50V/1608
+ComponentSymbolReference1=CAP_100nF/50V/1608
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=Arkx.IntLib
+ComponentDesignItemID2=CAP_100uF/6.3V/3216
+ComponentSymbolReference2=CAP_100uF/6.3V/3216
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=Arkx.IntLib
+ComponentDesignItemID3=CAP_10uF/25V/1608
+ComponentSymbolReference3=CAP_10uF/25V/1608
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Arkx.IntLib
+ComponentDesignItemID4=CAP_22uF/25V/2012
+ComponentSymbolReference4=CAP_22uF/25V/2012
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=Arkx.IntLib
+ComponentDesignItemID5=CAP_4.7uF/10V/1005
+ComponentSymbolReference5=CAP_4.7uF/10V/1005
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=Arkx.IntLib
+ComponentDesignItemID6=CAP_470nF/6.3V/0603
+ComponentSymbolReference6=CAP_470nF/6.3V/0603
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=Arkx.IntLib
+ComponentDesignItemID7=CAP_47nF/16V/0603
+ComponentSymbolReference7=CAP_47nF/16V/0603
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=Arkx.IntLib
+ComponentDesignItemID8=CON_EDGE-CONNECTOR_DDR4-SODIMM-260P
+ComponentSymbolReference8=CON_EDGE-CONNECTOR_DDR4-SODIMM-260P
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=Arkx.IntLib
+ComponentDesignItemID9=CON_TC2070-IDC(JTAG-HS3)
+ComponentSymbolReference9=CON_TC2070-IDC(JTAG-HS3)
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=Arkx.IntLib
+ComponentDesignItemID10=ESD_CG0402MLU-3.3G
+ComponentSymbolReference10=ESD_CG0402MLU-3.3G
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=Arkx.IntLib
+ComponentDesignItemID11=FB_BLM15PX121SN1D
+ComponentSymbolReference11=FB_BLM15PX121SN1D
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
+ComponentLibIdentifierKind12=Library Name And Type
+ComponentLibraryIdentifier12=Arkx.IntLib
+ComponentDesignItemID12=FET_2N7002
+ComponentSymbolReference12=FET_2N7002
+ComponentUpdate12=1
+ComponentIsDeviceSheet12=0
+ComponentLibIdentifierKind13=Library Name And Type
+ComponentLibraryIdentifier13=Arkx.IntLib
+ComponentDesignItemID13=IC_BUF_SN74LVC1G07DBVT
+ComponentSymbolReference13=IC_BUF_SN74LVC1G07DBVT
+ComponentUpdate13=1
+ComponentIsDeviceSheet13=0
+ComponentLibIdentifierKind14=Library Name And Type
+ComponentLibraryIdentifier14=Arkx.IntLib
+ComponentDesignItemID14=IC_MEM_DDR3L_MT41K256M16TW-107 IT:P
+ComponentSymbolReference14=IC_MEM_DDR3L_MT41K256M16TW-107 IT:P
+ComponentUpdate14=1
+ComponentIsDeviceSheet14=0
+ComponentLibIdentifierKind15=Library Name And Type
+ComponentLibraryIdentifier15=Arkx.IntLib
+ComponentDesignItemID15=IC_MEM_W25Q128JVEIQ
+ComponentSymbolReference15=IC_MEM_W25Q128JVEIQ
+ComponentUpdate15=1
+ComponentIsDeviceSheet15=0
+ComponentLibIdentifierKind16=Library Name And Type
+ComponentLibraryIdentifier16=Arkx.IntLib
+ComponentDesignItemID16=IC_REG_VTT_BD3539FVM-TR
+ComponentSymbolReference16=IC_REG_VTT_BD3539FVM-TR
+ComponentUpdate16=1
+ComponentIsDeviceSheet16=0
+ComponentLibIdentifierKind17=Library Name And Type
+ComponentLibraryIdentifier17=Arkx.IntLib
+ComponentDesignItemID17=IC_SOC_XC7Z010-1CLG400I
+ComponentSymbolReference17=IC_SOC_XC7Z010-1CLG400I
+ComponentUpdate17=1
+ComponentIsDeviceSheet17=0
+ComponentLibIdentifierKind18=Library Name And Type
+ComponentLibraryIdentifier18=Arkx.IntLib
+ComponentDesignItemID18=LED_MHT170RGBCT(GREEN)
+ComponentSymbolReference18=LED_MHT170RGBCT(GREEN)
+ComponentUpdate18=1
+ComponentIsDeviceSheet18=0
+ComponentLibIdentifierKind19=Library Name And Type
+ComponentLibraryIdentifier19=Arkx.IntLib
+ComponentDesignItemID19=LED_RGB_MHT170RGBCT
+ComponentSymbolReference19=LED_RGB_MHT170RGBCT
+ComponentUpdate19=1
+ComponentIsDeviceSheet19=0
+ComponentLibIdentifierKind20=Library Name And Type
+ComponentLibraryIdentifier20=Arkx.IntLib
+ComponentDesignItemID20=OSC_S2D33.333300B20F30T(33.33MHz)
+ComponentSymbolReference20=OSC_S2D33.333300B20F30T(33.33MHz)
+ComponentUpdate20=1
+ComponentIsDeviceSheet20=0
+ComponentLibIdentifierKind21=Library Name And Type
+ComponentLibraryIdentifier21=Arkx.IntLib
+ComponentDesignItemID21=OSC_S2D50.000000B20F30T(50MHz)
+ComponentSymbolReference21=OSC_S2D50.000000B20F30T(50MHz)
+ComponentUpdate21=1
+ComponentIsDeviceSheet21=0
+ComponentLibIdentifierKind22=Library Name And Type
+ComponentLibraryIdentifier22=Arkx.IntLib
+ComponentDesignItemID22=RES_0R/1005/62.5mW
+ComponentSymbolReference22=RES_0R/1005/62.5mW
+ComponentUpdate22=1
+ComponentIsDeviceSheet22=0
+ComponentLibIdentifierKind23=Library Name And Type
+ComponentLibraryIdentifier23=Arkx.IntLib
+ComponentDesignItemID23=RES_100K/1005/62.5mW
+ComponentSymbolReference23=RES_100K/1005/62.5mW
+ComponentUpdate23=1
+ComponentIsDeviceSheet23=0
+ComponentLibIdentifierKind24=Library Name And Type
+ComponentLibraryIdentifier24=Arkx.IntLib
+ComponentDesignItemID24=RES_100R/1005/62.5mW
+ComponentSymbolReference24=RES_100R/1005/62.5mW
+ComponentUpdate24=1
+ComponentIsDeviceSheet24=0
+ComponentLibIdentifierKind25=Library Name And Type
+ComponentLibraryIdentifier25=Arkx.IntLib
+ComponentDesignItemID25=RES_12K/1005/62.5mW
+ComponentSymbolReference25=RES_12K/1005/62.5mW
+ComponentUpdate25=1
+ComponentIsDeviceSheet25=0
+ComponentLibIdentifierKind26=Library Name And Type
+ComponentLibraryIdentifier26=Arkx.IntLib
+ComponentDesignItemID26=RES_1K/1005/62.5mW
+ComponentSymbolReference26=RES_1K/1005/62.5mW
+ComponentUpdate26=1
+ComponentIsDeviceSheet26=0
+ComponentLibIdentifierKind27=Library Name And Type
+ComponentLibraryIdentifier27=Arkx.IntLib
+ComponentDesignItemID27=RES_1K/1608/0.1W
+ComponentSymbolReference27=RES_1K/1608/0.1W
+ComponentUpdate27=1
+ComponentIsDeviceSheet27=0
+ComponentLibIdentifierKind28=Library Name And Type
+ComponentLibraryIdentifier28=Arkx.IntLib
+ComponentDesignItemID28=RES_20K/1005/62.5mW
+ComponentSymbolReference28=RES_20K/1005/62.5mW
+ComponentUpdate28=1
+ComponentIsDeviceSheet28=0
+ComponentLibIdentifierKind29=Library Name And Type
+ComponentLibraryIdentifier29=Arkx.IntLib
+ComponentDesignItemID29=RES_22R/1005/62.5mW
+ComponentSymbolReference29=RES_22R/1005/62.5mW
+ComponentUpdate29=1
+ComponentIsDeviceSheet29=0
+ComponentLibIdentifierKind30=Library Name And Type
+ComponentLibraryIdentifier30=Arkx.IntLib
+ComponentDesignItemID30=RES_240R/1608/0.1W
+ComponentSymbolReference30=RES_240R/1608/0.1W
+ComponentUpdate30=1
+ComponentIsDeviceSheet30=0
+ComponentLibIdentifierKind31=Library Name And Type
+ComponentLibraryIdentifier31=Arkx.IntLib
+ComponentDesignItemID31=RES_4.7K/1005/62.5mW
+ComponentSymbolReference31=RES_4.7K/1005/62.5mW
+ComponentUpdate31=1
+ComponentIsDeviceSheet31=0
+ComponentLibIdentifierKind32=Library Name And Type
+ComponentLibraryIdentifier32=Arkx.IntLib
+ComponentDesignItemID32=RES_470R/1005/62.5mW
+ComponentSymbolReference32=RES_470R/1005/62.5mW
+ComponentUpdate32=1
+ComponentIsDeviceSheet32=0
+ComponentLibIdentifierKind33=Library Name And Type
+ComponentLibraryIdentifier33=Arkx.IntLib
+ComponentDesignItemID33=RES_49.9R/1005/62.5mW
+ComponentSymbolReference33=RES_49.9R/1005/62.5mW
+ComponentUpdate33=1
+ComponentIsDeviceSheet33=0
+ComponentLibIdentifierKind34=Library Name And Type
+ComponentLibraryIdentifier34=Arkx.IntLib
+ComponentDesignItemID34=RES_510R/1005/62.5mW
+ComponentSymbolReference34=RES_510R/1005/62.5mW
+ComponentUpdate34=1
+ComponentIsDeviceSheet34=0
+ComponentLibIdentifierKind35=Library Name And Type
+ComponentLibraryIdentifier35=Arkx.IntLib
+ComponentDesignItemID35=RES_NC_0R/1005/62.5mW
+ComponentSymbolReference35=RES_NC_0R/1005/62.5mW
+ComponentUpdate35=1
+ComponentIsDeviceSheet35=0
+ComponentLibIdentifierKind36=Library Name And Type
+ComponentLibraryIdentifier36=Arkx.IntLib
+ComponentDesignItemID36=RES_NC_0R/1608/0.1W
+ComponentSymbolReference36=RES_NC_0R/1608/0.1W
+ComponentUpdate36=1
+ComponentIsDeviceSheet36=0
+ComponentLibIdentifierKind37=Library Name And Type
+ComponentLibraryIdentifier37=Arkx.IntLib
+ComponentDesignItemID37=RES_NC_20K/1005/62.5mW
+ComponentSymbolReference37=RES_NC_20K/1005/62.5mW
+ComponentUpdate37=1
+ComponentIsDeviceSheet37=0
+ComponentLibIdentifierKind38=Library Name And Type
+ComponentLibraryIdentifier38=Arkx.IntLib
+ComponentDesignItemID38=SW_DSHP04TS-S
+ComponentSymbolReference38=SW_DSHP04TS-S
+ComponentUpdate38=1
+ComponentIsDeviceSheet38=0
+ComponentLibIdentifierKind39=Library Name And Type
+ComponentLibraryIdentifier39=Arkx.IntLib
+ComponentDesignItemID39=SW_TS-1088-AR02016
+ComponentSymbolReference39=SW_TS-1088-AR02016
+ComponentUpdate39=1
+ComponentIsDeviceSheet39=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1147,12 +1592,227 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=JLCPCB Part Type
+ParameterUpdate3=1
+ParameterName4=LCSC Part #
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=Manufacturer
+ParameterUpdate6=1
+ParameterName7=Manufacturer Part Number
+ParameterUpdate7=1
+ParameterName8=Mating Part Number
+ParameterUpdate8=1
+ParameterName9=Power Rating
+ParameterUpdate9=1
+ParameterName10=Precision
+ParameterUpdate10=1
+ParameterName11=Size
+ParameterUpdate11=1
+ParameterName12=Value
+ParameterUpdate12=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CAP 0603 (0201_INCH)
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=CAP 1005 (0402_INCH)
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=CAP 1608 (0603_INCH)
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=CAP 2012 (0805_INCH)
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=CAP 3216 (1206_INCH) - H1.8MM
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=CON_EDGE-CONNECTOR_DDR4-SODIMM-260P
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=CON_TC2070-IDC
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=FB 1005 (0402_inch)
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=IC_MEM_DDR3L_MT41K256M16TW-107 IT:P
+ModelUpdate8=1
+ModelType9=PCBLIB
+ModelName9=IC_MSOP-8
+ModelUpdate9=1
+ModelType10=PCBLIB
+ModelName10=IC_SOC_XC7Z010-1CLG400I
+ModelUpdate10=1
+ModelType11=PCBLIB
+ModelName11=IC_WSON-8-8X6
+ModelUpdate11=1
+ModelType12=PCBLIB
+ModelName12=LED MHT170RGBCT
+ModelUpdate12=1
+ModelType13=PCBLIB
+ModelName13=LED MHT170RGBCT (GREEN)
+ModelUpdate13=1
+ModelType14=PCBLIB
+ModelName14=OSC SMD_2.5x2.0 (SCTF)
+ModelUpdate14=1
+ModelType15=PCBLIB
+ModelName15=RES 1005 (0402_inch)
+ModelUpdate15=1
+ModelType16=PCBLIB
+ModelName16=RES 1005 (0402_inch)/NC
+ModelUpdate16=1
+ModelType17=PCBLIB
+ModelName17=RES 1608 (0603_inch)
+ModelUpdate17=1
+ModelType18=PCBLIB
+ModelName18=RES 1608 (0603_inch)/NC
+ModelUpdate18=1
+ModelType19=PCBLIB
+ModelName19=SOT 23-3 (DIODES INCORPORATED)
+ModelUpdate19=1
+ModelType20=PCBLIB
+ModelName20=SOT-23-5 (TI DBV PACKAGE)
+ModelUpdate20=1
+ModelType21=PCBLIB
+ModelName21=SW_DSHP04TS-S
+ModelUpdate21=1
+ModelType22=PCBLIB
+ModelName22=SW_TS-1088-AR02016
+ModelUpdate22=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=DDR_A0|NetColor=$00E8864A
+Net2=NetName=DDR_A1|NetColor=$00E8864A
+Net3=NetName=DDR_A10|NetColor=$00E8864A
+Net4=NetName=DDR_A11|NetColor=$00E8864A
+Net5=NetName=DDR_A12|NetColor=$00E8864A
+Net6=NetName=DDR_A13|NetColor=$00E8864A
+Net7=NetName=DDR_A14|NetColor=$00E8864A
+Net8=NetName=DDR_A2|NetColor=$00E8864A
+Net9=NetName=DDR_A3|NetColor=$00E8864A
+Net10=NetName=DDR_A4|NetColor=$00E8864A
+Net11=NetName=DDR_A5|NetColor=$00E8864A
+Net12=NetName=DDR_A6|NetColor=$00E8864A
+Net13=NetName=DDR_A7|NetColor=$00E8864A
+Net14=NetName=DDR_A8|NetColor=$00E8864A
+Net15=NetName=DDR_A9|NetColor=$00E8864A
+Net16=NetName=DDR_BA0|NetColor=$00E8864A
+Net17=NetName=DDR_BA1|NetColor=$00E8864A
+Net18=NetName=DDR_BA2|NetColor=$00E8864A
+Net19=NetName=DDR_CK_N|NetColor=$00E8864A
+Net20=NetName=DDR_CK_P|NetColor=$00E8864A
+Net21=NetName=DDR_CKE|NetColor=$00E8864A
+Net22=NetName=DDR_DM0|NetColor=clWhite
+Net23=NetName=DDR_DM1|NetColor=$000000CC
+Net24=NetName=DDR_DM2|NetColor=$0084FF84
+Net25=NetName=DDR_DM3|NetColor=clYellow
+Net26=NetName=DDR_DQ0|NetColor=clWhite
+Net27=NetName=DDR_DQ1|NetColor=clWhite
+Net28=NetName=DDR_DQ10|NetColor=$000000CC
+Net29=NetName=DDR_DQ11|NetColor=$000000CC
+Net30=NetName=DDR_DQ12|NetColor=$000000CC
+Net31=NetName=DDR_DQ13|NetColor=$000000CC
+Net32=NetName=DDR_DQ14|NetColor=$000000CC
+Net33=NetName=DDR_DQ15|NetColor=$000000CC
+Net34=NetName=DDR_DQ16|NetColor=$0084FF84
+Net35=NetName=DDR_DQ17|NetColor=$0084FF84
+Net36=NetName=DDR_DQ18|NetColor=$0084FF84
+Net37=NetName=DDR_DQ19|NetColor=$0084FF84
+Net38=NetName=DDR_DQ2|NetColor=clWhite
+Net39=NetName=DDR_DQ20|NetColor=$0084FF84
+Net40=NetName=DDR_DQ21|NetColor=$0084FF84
+Net41=NetName=DDR_DQ22|NetColor=$0084FF84
+Net42=NetName=DDR_DQ23|NetColor=$0084FF84
+Net43=NetName=DDR_DQ24|NetColor=clYellow
+Net44=NetName=DDR_DQ25|NetColor=clYellow
+Net45=NetName=DDR_DQ26|NetColor=clYellow
+Net46=NetName=DDR_DQ27|NetColor=clYellow
+Net47=NetName=DDR_DQ28|NetColor=clYellow
+Net48=NetName=DDR_DQ29|NetColor=clYellow
+Net49=NetName=DDR_DQ3|NetColor=clWhite
+Net50=NetName=DDR_DQ30|NetColor=clYellow
+Net51=NetName=DDR_DQ31|NetColor=clYellow
+Net52=NetName=DDR_DQ4|NetColor=clWhite
+Net53=NetName=DDR_DQ5|NetColor=clWhite
+Net54=NetName=DDR_DQ6|NetColor=clWhite
+Net55=NetName=DDR_DQ7|NetColor=clWhite
+Net56=NetName=DDR_DQ8|NetColor=$000000CC
+Net57=NetName=DDR_DQ9|NetColor=$000000CC
+Net58=NetName=DDR_DQS0_N|NetColor=clWhite
+Net59=NetName=DDR_DQS0_P|NetColor=clWhite
+Net60=NetName=DDR_DQS1_N|NetColor=$000000CC
+Net61=NetName=DDR_DQS1_P|NetColor=$000000CC
+Net62=NetName=DDR_DQS2_N|NetColor=$0084FF84
+Net63=NetName=DDR_DQS2_P|NetColor=$0084FF84
+Net64=NetName=DDR_DQS3_N|NetColor=clYellow
+Net65=NetName=DDR_DQS3_P|NetColor=clYellow
+Net66=NetName=DDR_NCAS|NetColor=$00E8864A
+Net67=NetName=DDR_NCS|NetColor=$00E8864A
+Net68=NetName=DDR_NRAS|NetColor=$00E8864A
+Net69=NetName=DDR_NRST|NetColor=$00E8864A
+Net70=NetName=DDR_NWE|NetColor=$00E8864A
+Net71=NetName=DDR_ODT|NetColor=$00E8864A
+Net72=NetName=DGND|NetColor=$00134E27
+Net73=NetName=DP1.0VS|NetColor=clFuchsia
+Net74=NetName=DP1.35VS|NetColor=$000099FF
+Net75=NetName=DP1.8VS|NetColor=$005C4F13
+Net76=NetName=DP3.3VS|NetColor=$009999EA
+Net77=NetName=DP5VS|NetColor=clRed
+Net78=NetName=FLASH_CLK_BM4|NetColor=$00751C35
+Net79=NetName=PS_CAN0_RX|NetColor=$00BDF78D
+Net80=NetName=PS_CAN0_TX|NetColor=$00BDF78D
+Net81=NetName=PS_CAN1_RX|NetColor=$00BDF78D
+Net82=NetName=PS_CAN1_TX|NetColor=$00BDF78D
+Net83=NetName=PS_CLK_33.33MHZ|NetColor=$009999EA
+Net84=NetName=PS_I2C0_SCL|NetColor=$00BDF78D
+Net85=NetName=PS_I2C0_SDA|NetColor=$00BDF78D
+Net86=NetName=PS_I2C1_SCL|NetColor=$00BDF78D
+Net87=NetName=PS_I2C1_SDA|NetColor=$00BDF78D
+Net88=NetName=PS_MIO_VREF|NetColor=$009999EA
+Net89=NetName=PS_NPOR|NetColor=$009999EA
+Net90=NetName=PS_NRST|NetColor=$009999EA
+Net91=NetName=PS_QSPI_CLK|NetColor=$00751C35
+Net92=NetName=PS_QSPI_DQ0_BM3|NetColor=$00751C35
+Net93=NetName=PS_QSPI_DQ1_BM1|NetColor=$00751C35
+Net94=NetName=PS_QSPI_DQ2_BM2|NetColor=$00751C35
+Net95=NetName=PS_QSPI_DQ3_BM0|NetColor=$00751C35
+Net96=NetName=PS_QSPI_NCS|NetColor=$00751C35
+Net97=NetName=PS_SD0_CK|NetColor=$00BDF78D
+Net98=NetName=PS_SD0_CMD|NetColor=$00BDF78D
+Net99=NetName=PS_SD0_DATA0|NetColor=$00BDF78D
+Net100=NetName=PS_SD0_DATA1|NetColor=$00BDF78D
+Net101=NetName=PS_SD0_DATA2|NetColor=$00BDF78D
+Net102=NetName=PS_SD0_DATA3|NetColor=$00BDF78D
+Net103=NetName=PS_SPI0_MISO|NetColor=$00BDF78D
+Net104=NetName=PS_SPI0_MOSI|NetColor=$00BDF78D
+Net105=NetName=PS_SPI0_SCLK|NetColor=$00BDF78D
+Net106=NetName=PS_SPI0_SS0|NetColor=$00BDF78D
+Net107=NetName=PS_SPI1_MISO|NetColor=$00BDF78D
+Net108=NetName=PS_SPI1_MOSI|NetColor=$00BDF78D
+Net109=NetName=PS_SPI1_SCLK|NetColor=$00BDF78D
+Net110=NetName=PS_SPI1_SS0|NetColor=$00BDF78D
+Net111=NetName=PS_UART0_RX|NetColor=$00BDF78D
+Net112=NetName=PS_UART0_TX|NetColor=$00BDF78D
+Net113=NetName=PS_UART1_RX|NetColor=$00BDF78D
+Net114=NetName=PS_UART1_TX|NetColor=$00BDF78D
+Net115=NetName=VCFG0|NetColor=$009999EA
+Net116=NetName=VCFG1|NetColor=$009999EA
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
